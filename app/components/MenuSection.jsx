@@ -72,6 +72,11 @@ export default function MenuSection() {
         <span className="w-10 h-px bg-[#74031E]/25" />
       </div>
 
+      {/* Service notice */}
+      <p className="relative z-10 max-w-lg mx-auto text-center text-[11px] tracking-[0.05em] text-[#74031E]/80 font-bold leading-relaxed mt-6">
+        Nous informons notre aimable clientèle qu'un service de 6% sera ajouté à votre addition.
+      </p>
+
     </section>
   );
 }
