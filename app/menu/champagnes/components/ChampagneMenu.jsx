@@ -237,6 +237,7 @@ export default function ChampagnesVinsMenu() {
         <div>
           <SectionHeader label="Vins du Monde" />
           <ColHeaders hasVerre={true} />
+          <SubLabel label="Rouges du Monde" />
           <SubLabel label="Argentine" />
           {vinsAutres.argentina.map((item, i) => (
             <WineRow key={item.name} item={item} isLast={i === vinsAutres.argentina.length - 1} />
