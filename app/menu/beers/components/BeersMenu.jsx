@@ -3,17 +3,17 @@
 import { motion } from 'framer-motion';
 
 const bieres = [
-  { name: 'Mahou 5 Estrellas', prix: '45' },
-  { name: 'San Miguel',        prix: '50' },
+  { name: 'Mahou 5 Estrellas', prix: '55' },
+  { name: 'San Miguel',        prix: '60' },
   { name: 'Casablanca',        prix: '70' },
   { name: 'Corona',            prix: '80' },
 ];
 
 const aperitifs = [
-  { name: 'Martini Rouge',          prix: '70' },
-  { name: 'Martini Blanc',          prix: '70' },
-  { name: 'Campari',                prix: '70' },
-  { name: 'Pastis 12/12 St Tropez', prix: '80' },
+  { name: 'Martini Rouge',          prix: '100' },
+  { name: 'Martini Blanc',          prix: '100' },
+  { name: 'Campari',                prix: '100' },
+  { name: 'Pastis 12/12 St Tropez', prix: '100' },
 ];
 
 const cognac = [
@@ -32,44 +32,44 @@ const digestifs = [
 ];
 
 const rhum = [
-  { name: 'Bacardi Blanc',  verre: '80',  bouteille: null },
-  { name: 'Bacardi Gold',   verre: '80',  bouteille: null },
+  { name: 'Bacardi Blanc',  verre: '100',  bouteille: null },
+  { name: 'Bacardi Gold',   verre: '100',  bouteille: null },
   { name: 'Bacardi 8 Ans',  verre: '140', bouteille: null },
-  { name: 'Zacapa 23',      verre: '300',  bouteille: null },
+  { name: 'Zacapa 23',      verre: '350',  bouteille: null },
 ];
 
 const vodka = [
-  { name: 'Grey Goose',        verre: '120', bouteille: '1800' },
+  { name: 'Grey Goose',        verre: '150', bouteille: '1800' },
   { name: 'Grey Goose Altius', verre: null,  bouteille: '3900' },
 ];
 
 const whisky = [
-  { name: 'Jack Daniels',       verre: '100', bouteille: '2000' },
-  { name: 'Jack Daniels Honey', verre: '100', bouteille: '2000' },
+  { name: 'Jack Daniels',       verre: '120', bouteille: '2000' },
+  { name: 'Jack Daniels Honey', verre: '120', bouteille: '2000' },
   { name: 'Jack Gentleman',     verre: '140', bouteille: null   },
   { name: 'Bourbon Bulleit',    verre: '120', bouteille: null   },
-  { name: 'Black Label',        verre: '140', bouteille: null   },
+  { name: 'Black Label',        verre: '150', bouteille: null   },
   { name: 'Gold Label',         verre: null,  bouteille: '2800' },
   { name: 'Blue Label',         verre: null,  bouteille: '6000' },
-  { name: 'Glenfiddich 12',     verre: '140', bouteille: '2000' },
+  { name: 'Glenfiddich 12',     verre: '150', bouteille: '2000' },
 ];
 
 const gin = [
-  { name: 'Bombay Sapphire', verre: '80',  bouteille: '1400' },
-  { name: 'Hendricks',       verre: '100', bouteille: '1600' },
-  { name: 'Tanqueray Dry',   verre: '100', bouteille: '1600' },
+  { name: 'Bombay Sapphire', verre: '100',  bouteille: '1400' },
+  { name: 'Hendricks',       verre: '120', bouteille: '1600' },
+  { name: 'Tanqueray Dry',   verre: '120', bouteille: '1600' },
   { name: 'Monkey 47',       verre: '200', bouteille: '3000' },
   { name: 'Palmarae',        verre: '250', bouteille: '2600' },
 ];
 
 const tequila = [
-  { name: 'Camino',              verre: '70',  bouteille: null   },
+  { name: 'Camino',              verre: '100',  bouteille: null   },
   { name: 'Mezcal San Cosme',    verre: '180', bouteille: '2000' },
   { name: 'Patron Silver',       verre: '200', bouteille: '2500' },
   { name: 'Patron Reposado',     verre: '250', bouteille: '3000' },
   { name: 'Patron Añejo',        verre: '300', bouteille: '3500' },
   { name: 'Patron Coffee',       verre: '200', bouteille: '2500' },
-  { name: 'Clase Azul Reposado', verre: null,  bouteille: '6000' },
+  { name: 'Clase Azul Reposado', verre: null,  bouteille: '9000' },
 ];
 
 // ─── Category title: dot + label, no border ──────────────────────────────────

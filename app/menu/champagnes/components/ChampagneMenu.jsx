@@ -6,74 +6,78 @@ const champagnes = [
   { name: 'Martini Prosecco',     coupe: '70',  bouteille: null   },
   { name: 'Laurent Brut',         coupe: null,  bouteille: '1500' },
   { name: 'Laurent Perrier Rosé', coupe: null,  bouteille: '2400' },
-  { name: 'Ruinart Blanc',        coupe: null,  bouteille: '2600' },
-  { name: 'Dom Pérignon',         coupe: null,  bouteille: '5500' },
-  { name: 'Dom Pérignon Rosé',    coupe: null,  bouteille: '9800' },
+  { name: 'Ruinart Blanc',        coupe: null,  bouteille: '2900' },
+  { name: 'Dom Pérignon',         coupe: null,  bouteille: '6500' },
+  { name: 'Dom Pérignon Rosé',    coupe: null,  bouteille: '12000' },
 ];
 
 const vinsMarocains = {
   blanc: [
-    { name: 'Médaillon',           verre: '80',  bouteille: '240' },
-    { name: 'S de Siroua',         verre: null,  bouteille: '280' },
-    { name: 'Aït Souala',          verre: null,  bouteille: '320' },
+    { name: 'Médaillon',           verre: '80',  bouteille: '290' },
+    { name: 'S de Siroua',         verre: null,  bouteille: '320' },
+    { name: 'Domaine Jirry Chardonnay', verre: null,  bouteille: '460' },
   ],
   rouge: [
-    { name: 'Médaillon',             verre: '80',  bouteille: '240' },
-    { name: 'CB Signature',          verre: null,  bouteille: '320' },
-    { name: 'Château Roslane Atlas', verre: null,  bouteille: '550' },
-    { name: 'Tandem',                verre: null,  bouteille: '520' },
+    { name: 'Médaillon',             verre: '80',  bouteille: '290' },
+    { name: 'CB Signature',          verre: null,  bouteille: '390' },
+    { name: 'Château Roslane Atlas', verre: null,  bouteille: '640' },
+    { name: 'Tandem',                verre: null,  bouteille: '620' },
   ],
   rose: [
-    { name: 'S de Siroua', verre: '80',  bouteille: '240' },
+    { name: 'S de Siroua', verre: '80',  bouteille: '390' },
     { name: 'Tandem',      verre: null,  bouteille: '420' },
   ],
   gris: [
-    { name: 'Aït Souala', verre: null, bouteille: '320' },
+    { name: 'Aït Souala', verre: null, bouteille: '360' },
   ],
 };
 
 const vinsEspagne = {
   blanc: [
-    { name: 'Marqués de Caceres',      verre: '80',  bouteille: '240' },
-    { name: 'Viña Esmeralda',          verre: null,  bouteille: '260' },
-    { name: 'Albariño Pazo San Mauro', verre: null,  bouteille: '460' },
+    { name: 'Marqués de Caceres',      verre: '80',  bouteille: '390' },
+    { name: 'Viña Esmeralda',          verre: null,  bouteille: '360' },
+    { name: 'Albariño Pazo San Mauro', verre: null,  bouteille: '490' },
   ],
   rouge: [
-    { name: 'Marqués de Caceres', verre: '80',  bouteille: '240' },
-    { name: 'Altos Ibéricos',     verre: null,  bouteille: '280' },
-    { name: 'Sela Bodega Roda',   verre: null,  bouteille: '440' },
-    { name: 'Marqués de Vargas',  verre: null,  bouteille: '480' },
+    { name: 'Marqués de Caceres', verre: '80',  bouteille: '390' },
+    { name: 'Altos Ibéricos',     verre: null,  bouteille: '360' },
+    { name: 'Sela Bodega Roda',   verre: null,  bouteille: '690' },
+    { name: 'Marqués de Vargas',  verre: null,  bouteille: '640' },
   ],
 };
 
 const vinsFrance = {
   blanc: [
-    { name: 'Chablis',      verre: null, bouteille: '440' },
-    { name: 'Pouilly Fumé', verre: null, bouteille: '480' },
-    { name: 'Sancerre',     verre: null, bouteille: '590' },
+    { name: 'Chablis',      verre: null, bouteille: '580' },
+    { name: 'Pouilly Fumé', verre: null, bouteille: '640' },
+    { name: 'Sancerre',     verre: null, bouteille: '660' },
+    { name: 'B&G Bordeaux Blanc', verre: null, bouteille: '390' },
   ],
   rouge: [
-    { name: 'Château Cazeau',                          verre: '80',  bouteille: '220' },
-    { name: 'Château Lafitte',                        verre: null,  bouteille: '480' },
-    { name: 'Chamirey Mercury Bourgogne',             verre: null,  bouteille: '720' },
-    { name: 'Châteauneuf-du-Pape Les Sinards Perrin', verre: null,  bouteille: '980' },
+    { name: 'Château Cazeau',                          verre: '80',  bouteille: '290' },
+    { name: 'Château Lafitte',                        verre: null,  bouteille: '680' },
+    { name: 'Chamirey Mercury Bourgogne',             verre: null,  bouteille: '900' },
+    { name: 'Châteauneuf-du-Pape Les Sinards Perrin', verre: null,  bouteille: '1200' },
+    { name: 'B&G Château Magnol Haut Médoc',          verre: null,  bouteille: '560' },
+    { name: 'B Magrez Château Fombrauge',             verre: null,  bouteille: '1900' },
+    { name: 'B Magrez Château La Tour Carnet',        verre: null,  bouteille: '1600' },
   ],
 };
 
 const vinsAutres = {
   argentina: [
-    { name: 'La Celia Reserva Malbec',       verre: null, bouteille: '320' },
+    { name: 'La Celia Reserva Malbec',       verre: null, bouteille: '360' },
   ],
   chile: [
-    { name: 'Tarapaca Reserva Carmenere',    verre: null, bouteille: '320' },
+    { name: 'Tarapaca Reserva Carmenere',    verre: null, bouteille: '360' },
   ],
   italie: [
-    { name: 'Chianti Superiore Vigneti Trebbio', verre: null, bouteille: '440' },
+    { name: 'Chianti Superiore Vigneti Trebbio', verre: null, bouteille: '460' },
   ],
   rose: [
-    { name: 'Manon',          verre: '100', bouteille: '280' },
-    { name: 'Pétales de Rose', verre: null, bouteille: '380' },
-    { name: 'Miraval',        verre: null,  bouteille: '480' },
+    { name: 'Manon',          verre: '100', bouteille: '360' },
+    { name: 'Pétales de Rose', verre: null, bouteille: '470' },
+    { name: 'Miraval',        verre: null,  bouteille: '620' },
   ],
 };
 

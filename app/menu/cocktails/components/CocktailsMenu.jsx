@@ -9,11 +9,10 @@ const sections = [
     items: [
       { name: "Hugo \"Cholo\" Spritz", price: "160", ingredients: "Liqueur de fleur de sureau, Cordial de huacatay, Prosecco, Parfum de verveine", description: "L'apéritif classique avec un autre accent." },
       { name: "Chilicano Sauvage", price: "160", ingredients: "Pisco, Miel et estragon, Ginger Ale, Citric", description: "Rafraîchissant, à base de plantes, intemporel." },
-      { name: "Disco 2000", price: "160", ingredients: "Rhum blanc, Liqueur de pêche, Cranberry, Cordial acidulé à la pastèque", description: "Pop, chic, avec une touche Cosmopolitan." },
-      { name: "Velvet", price: "160", ingredients: "Cognac, Vermouth Rosso, Figue, Foam au yaourt, Poivre noir", description: "Le luxe d'être surpris." },
+      { name: "Disco 2000", price: "160", ingredients: "Rhum blanc, Liqueur de marasquin, Cranberry, Cordial acidulé à la pastèque", description: "Pop, chic, avec une touche Cosmopolitan." },
       { name: "Gin Basil Splash", price: "160", ingredients: "Gin, Basilic, Citron, Liqueur de pomme verte, Parfum de thym", description: "Un classique revisité." },
-      { name: "Le Fauve", price: "160", ingredients: "Whisky Bourbon, Fruit de la passion, Sirop de pistache", description: "Une interprétation sauvage d'un grand classique épicé." },
-      { name: "Pulparindo Shots", price: "300", ingredients: "Vodka, Tamarind, Liqueur d'orange", description: "4 shots", group: "Shots" },
+      { name: "El Dorado", price: "160", ingredients: "Pisco, Liqueur de pêche, Jus d’ananas, Sour pistache", description: "Our pisco punch version" },
+      { name: "Passion Vodka", price: "300", ingredients: "Vodka, Fruit de la Passion", description: "4 shots", group: "Shots" },
       { name: "Felino", price: "90", ingredients: "Piment rose, Verveine, Ananas", description: "Frais, floral et légèrement épicé.", group: "Mocktails" },
       { name: "Cheetah", price: "90", ingredients: "Fruit de la passion, Hibiscus, Sirop de canne, Eau pétillante", description: "Léger, fruité et pétillant.", group: "Mocktails" },
     ],
@@ -21,7 +20,12 @@ const sections = [
   {
     category: "Cocktails",
     items: [
-      { name: "Cocktails Alcool", price: "160" },
+      { name: "Negroni", price: "160" },
+      { name: "Espresso Martini", price: "160" },
+      { name: "Tequila Sunrise", price: "160" },
+      { name: "Gin Fizz", price: "160" },
+      { name: "Margarita", price: "160" },
+      { name: "Whisky Sour", price: "160" },
       { name: "St-Germain Spritz", price: "180", ingredients: "Liqueur St-Germain, Prosecco, eau pétillante", description: "Un cocktail léger et floral, équilibré par les bulles du Prosecco et de l'eau pétillante" },
       { name: "Mocktails",        price: "90" },
     ],
